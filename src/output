@@ -1,0 +1,31 @@
+********LOADING DATA**********
+TRAIN_RATE: 1
+Traning Scale: 32561
+≤50K: 24720 >50K: 7841
+
+maxValue: 
+90 0 1.48470e+06 0 16 0 0 0 0 0 99999 4356 99 0 
+
+minValue: 
+17 0 12285 0 1 0 0 0 0 0 0 0 1 0 
+
+gap: 
+3.65 0 73621 0 0.75 0 0 0 0 0 4999.95 217.8 4.9 0 
+
+mostPossible: 
+1 Private 2 HS-grad 10 Never-married Adm-clerical Not-in-family White Male 0 0 7 United-States 
+7 Private 2 Bachelors 16 Married-civ-spouse Exec-managerial Husband White Male 0 0 7 United-States 
+
+M: 
+21 8 21 16 16 7 14 6 5 2 9 17 21 41 
+********LOADING COMPLETE**********
+
+
+********TESTING**********
+Total Test Case: 16281
+Accuracy: 82.4949%
+Precision: ≤50K 92.7482%; >50K 59.8225%
+Recall: ≤50K 83.6188%; >50K 78.8612%
+F1: ≤50K 0.879472
+; >50K 0.68035
+*******TEST OVER*********
