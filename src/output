@@ -3,29 +3,31 @@ TRAIN_RATE: 1
 Traning Scale: 32561
 ≤50K: 24720 >50K: 7841
 
-maxValue: 
-90 0 1.48470e+06 0 16 0 0 0 0 0 99999 4356 99 0 
+u: 
+0.408708 0 0.128201 0 0.599692 0 0 0 0 0 0.00148754 0.0121999 0.392325 0 
+0.491665 0 0.126628 0 0.725729 0 0 0 0 0 0.0400618 0.0447662 0.459323 0 
 
-minValue: 
-17 0 12285 0 1 0 0 0 0 0 0 0 1 0 
-
-gap: 
-3.65 0 73621 0 0.75 0 0 0 0 0 4999.95 217.8 4.9 0 
-
-mostPossible: 
-1 Private 2 HS-grad 10 Never-married Adm-clerical Not-in-family White Male 0 0 7 United-States 
-7 Private 2 Bachelors 16 Married-civ-spouse Exec-managerial Husband White Male 0 0 7 United-States 
+sita: 
+0.024266 0 0.00514348 0 0.0231819 0 0 0 0 0 9.27618e-05 0.00508915 0.0154833 0 
+0.0136587 0 0.00476942 0 0.0222192 0 0 0 0 0 0.0212273 0.0186859 0.0123732 0 
 
 M: 
-21 8 21 16 16 7 14 6 5 2 9 17 21 41 
+-- 8 -- 16 -- 7 14 6 5 2 -- -- -- 41 
 ********LOADING COMPLETE**********
+
+
+********K-means Working**********
+Iterate Times: 15
+********K-means Done**********
+
+
 
 
 ********TESTING**********
 Total Test Case: 16281
-Accuracy: 82.4949%
-Precision: ≤50K 92.7482%; >50K 59.8225%
-Recall: ≤50K 83.6188%; >50K 78.8612%
-F1: ≤50K 0.879472
-; >50K 0.68035
+Accuracy: 83.1767%
+Precision: ≤50K 86.1521%; >50K 69.279%
+Recall: ≤50K 92.9071%; >50K 51.7161%
+F1: ≤50K 0.894022
+; >50K 0.592229
 *******TEST OVER*********
